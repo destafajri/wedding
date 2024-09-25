@@ -206,7 +206,7 @@ body {
 
 .info {
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('img/bg-prewed.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
   background-size: cover;
   background-position: center;
   color: white;
@@ -234,7 +234,7 @@ body {
 }
 
 .info .card {
-  background-color: rgba(255, 255, 255, 0.4) !important;
+  background-color: rgba(255, 255, 255, 0.619) !important;
   color: #222222 !important;
   border: 1px solid #666;
   padding: 20px;
@@ -243,19 +243,27 @@ body {
 }
 
 .info .card-header {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #4D4D4D;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  font-weight: 500;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.3);
+  color: #0a0a0a;
 }
 
 .info .card-body {
   font-size: 1rem;
+  font-weight: 400;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.3);
+  color: #0a0a0a;
 }
 
 .info .card-footer {
-  border-top: 1px solid #999;
-  font-size: 0.9rem;
-  font-weight: 300;
+  border-top: 1px solid #4D4D4D;
+  font-size: 1rem;
+  font-weight: 350;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.3);
+  color: #0a0a0a;
 }
 
 .story,
@@ -288,7 +296,7 @@ body {
 .gifts p {
   font-size: 1rem;
   font-weight: 600;
-  color: #4a4a4a;
+  color: #222222;
 }
 
 .timeline {
