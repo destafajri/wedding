@@ -131,7 +131,7 @@ body {
 }
 
 .background-wrapper {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('img/bg-1.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('./img/bg-1.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -552,6 +552,10 @@ footer li {
     border-radius: 30%;
     margin: 0px auto;
   }
+
+  .background-wrapper {
+    background-attachment: fixed;
+  }
 }
 
 /* mobile phone */
@@ -591,5 +595,9 @@ footer li {
 
   .timeline li .timeline-panel::after {
     top: 26px;
+  }
+
+  .background-wrapper {
+    background-attachment: fixed;
   }
 }
