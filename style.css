@@ -67,7 +67,7 @@ body::before {
 
 .hero {
   position: relative;
-  min-height: 110vh;
+  min-height: 100vh;
 }
 
 .hero h1,
@@ -110,7 +110,7 @@ body::before {
 
 .mynavbar {
   /* background-color: rgba(255, 255, 255, 0.3) !important; */
-  background-color: pink;
+  background-color: var(--gradient);
   backdrop-filter: blur(90%);
 }
 
@@ -194,9 +194,9 @@ body::before {
   background-size: cover;
   background-position: center;
   color: white;
-  min-height: 100vh;
-  padding-top: 15rem;
-  padding-bottom: 5rem;
+  min-height: 100vh; 
+  padding-top: 5rem;
+  padding-bottom: 8rem;
 }
 
 .acara * {
@@ -264,7 +264,7 @@ body::before {
   background-size: cover;
   background-position: center;
   color: var(--white);
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-bottom: 8rem;
 }
 
@@ -332,6 +332,7 @@ body::before {
 .gifts {
   padding-top: 5rem;
   padding-bottom: 8rem;
+  background: var(--gradient);
 }
 
 .story h3,
