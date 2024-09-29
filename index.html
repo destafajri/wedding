@@ -386,7 +386,7 @@
 
   <div id="audio-container">
     <audio id="song" autoplay>
-      <!-- <source src="audio/We_could_Happend.mp3" type="audio/mp3"> -->
+      <source src="audio/We_could_Happend.mp3" type="audio/mp3">
       <source id="audioSource" type="audio/mp3">
     </audio>
 
@@ -405,10 +405,11 @@
     // Array of song sources
     const playlist = [
       'audio/We_could_Happend.mp3',
-      'audio/cold_coffee.mp3',
       'audio/I_will_be_here.mp3',
-      'audio/Endless_love.mp3',
-      'audio/Marry_your_daughter.mp3'
+      'audio/Marry_your_daughter.mp3',
+      'audio/Beautiful_in_white.mp3',
+      'audio/From_This_Moment_On.mp3',
+      'audio/Endless_love.mp3'
     ];
   
     let currentSong = 0;
@@ -487,7 +488,7 @@
     }
 
     function playAudio() {
-      song.volume = 0.5;
+      song.volume = 0.8;
       audioIconWrapper.style.display = 'flex';
       song.play();
       isPlaying = true;

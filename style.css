@@ -155,7 +155,7 @@ body::before {
 .gallery h2,
 .gifts h2 {
   color: var(--orange);
-  font-family: 'Alex Brush', 'Sacramento', cursive;
+  font-family: 'Sacramento', cursive;
   font-size: 3rem;
   font-weight: bold;
 }
