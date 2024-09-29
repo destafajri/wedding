@@ -97,7 +97,7 @@
             <div class="col-12">
               <h3>Synta</h3>
               <p>Anak pertama dari dua bersaudara.</p>
-              <p style="font-size: x-small;">Putra dari Bpk. Suminto <br> dan <br> Ibu Sugiyem</p>
+              <p style="font-size: x-small;">Putri dari Bpk. Suminto <br> dan <br> Ibu Sugiyem</p>
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@
           <a href="https://maps.app.goo.gl/m8gLRr9UEFyztoSF7" target="_blank" class="btn btn-light btn-sm my-3">Klik
             untuk
             membuka peta</a>
-          <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak
+          <p class="description">Manakala tiba di tujuan namun tidak
             ada tanda-tanda sedang dilangsungkan pernikahan, boleh jadi Anda salah jadwal, atau salah alamat.</p>
         </div>
       </div>
@@ -411,26 +411,26 @@
       'audio/From_This_Moment_On.mp3',
       'audio/Endless_love.mp3'
     ];
-  
+
     let currentSong = 0;
-  
+
     const audioElement = document.getElementById('song');
     const audioSource = document.getElementById('audioSource');
-  
+
     function loadSong(index) {
       audioSource.src = playlist[index];
       audioElement.load();
       audioElement.play();
     }
-  
-    audioElement.addEventListener('ended', function() {
+
+    audioElement.addEventListener('ended', function () {
       currentSong++;
       if (currentSong >= playlist.length) {
         currentSong = 0;
       }
       loadSong(currentSong);
     });
-  
+
     loadSong(currentSong);
   </script>
 
