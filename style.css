@@ -416,7 +416,7 @@ body::before {
 .story .date-story {
   font-family: 'Roboto', 'Lato';
   font-weight: bold;
-  font-size: 15px;
+  font-size: 10px;
   color: var(--bg);
   line-height: 1.5;
   font-style: italic;
