@@ -66,7 +66,7 @@ body::before {
 
 .hero h1 {
   margin-top: 10%;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Amsterdam Two', cursive;
   font-size: 6rem;
   color: var(--white);
 }
@@ -155,9 +155,9 @@ body::before {
 .gallery h2,
 .gifts h2 {
   color: var(--white);
-  font-family: 'Sacramento';
+  font-family: 'Amsterdam Two', cursive;
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .acara p {
@@ -166,7 +166,7 @@ body::before {
 }
 
 .acara .couple h3 {
-  font-family: 'Sacramento';
+  font-family: 'Amsterdam Two', cursive;
   font-size: 2.5rem;
   color: var(--white);
   padding-top: 1rem;
@@ -179,7 +179,7 @@ body::before {
 
 .acara .amp-symbol {
   display: flex;
-  font-family: 'Sacramento';
+  font-family: 'Amsterdam Two', cursive;
   justify-content: center;
   align-items: center;
   width: 4rem;
@@ -328,9 +328,10 @@ body::before {
   top: 0;
   bottom: 0;
   position: absolute;
-  width: 1px;
-  background-color: #ccc;
+  width: 2px;
+  border-left: 2px dashed #ccc;
   left: 50%;
+  transform: translateX(-50%);
 }
 
 .timeline li {
