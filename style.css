@@ -315,11 +315,6 @@ body::before {
   filter: grayscale(90%);
 }
 
-.gallery .img-fluid {
-  position: relative;
-  z-index: 1;
-}
-
 .timeline {
   list-style: none;
   padding: 1.4rem 0;
