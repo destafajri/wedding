@@ -185,7 +185,7 @@ body::before {
 
 .acara .amp-symbol {
   display: flex;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Safira', cursive;
   justify-content: center;
   align-items: center;
   width: 4rem;
@@ -195,7 +195,7 @@ body::before {
   color: white;
   font-size: 3rem;
   border-radius: 30%;
-  margin: 0px auto;
+  margin: 2rem auto;
 }
 
 .info {
